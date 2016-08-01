@@ -36,7 +36,10 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
-  gem 'rspec-rails', '~> 3.2.1'
+  gem "rspec-rails", "~> 3.2.1"
+  gem 'factory_girl_rails'
+  gem 'capybara', '~> 2.4'
+  gem 'database_cleaner'
 end
 
 group :development do
@@ -46,8 +49,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
-group :test do
-  # Capybara is a browser simulator in Ruby that's used for integration testing
-  gem 'capybara', '~> 2.4'
-end
+#
+# group :test do
+#   # Capybara is a browser simulator in Ruby that's used for integration testing
+#   gem 'capybara', '~> 2.4'
+# end
