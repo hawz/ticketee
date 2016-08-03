@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :project do
-    name "MyString"
+    name "Example Project"
     description "MyString"
   end
 end
